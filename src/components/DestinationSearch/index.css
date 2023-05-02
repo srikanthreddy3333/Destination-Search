@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.destinations-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-input {
+  border: none;
+  background-color: #f1f5f9;
+
+  outline: none;
+}
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
